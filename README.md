@@ -13,12 +13,20 @@ BONUS_RATE=BONUS_RATE_OF_YOUR_MARKETPLACE
 PAYMENT_ADDRESS=PAYMENT_WALLET_ADDRESS
 BSC_SCAN_API_KEY=YOUR_API_KEY
 ```
-# 3. Compile and test smart contract
+# 3. Compile smart contract
 ```
 truffle compile
-truffle test
 ```
-# 4. Deploy the smart contract
+# 4. Test smart contract
+Open another terminal:
+```
+ganache-cli
+```
+At the project root directory:
+```
+truffle test --network development
+```
+# 5. Deploy smart contract
 Deploy on testnet:
 ```
 truffle migrate --network testnet
@@ -28,7 +36,7 @@ Deploy on mainnet:
 ```
 truffle migrate --network bsc
 ```
-# 5. Verify the smart contract
+# 6. Verify  smart contract
 Verify on testnet:
 ```
 truffle run verify ConutNFT1155@{contract-address} --network testnet
