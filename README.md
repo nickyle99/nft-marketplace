@@ -1,7 +1,7 @@
 # 1. Go
 ```
-git clone https://github.com/QuanLe161199/NFT-Marketplace.git
-cd NFT-Marketplace
+git clone https://github.com/QuanLe161199/nft-marketplace.git
+cd nft-marketplace
 npm install
 ```
 # 2. Edit .env file
