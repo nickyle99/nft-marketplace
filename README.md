@@ -1,6 +1,6 @@
 # 1. Go
 ```
-git clone git@github.com:QuanLe161199/NFT-Marketplace.git
+git clone https://github.com/QuanLe161199/NFT-Marketplace.git
 cd NFT-Marketplace
 npm install
 ```
